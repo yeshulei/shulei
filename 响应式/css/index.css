@@ -1,0 +1,124 @@
+*{margin:0;padding:0;}
+div{box-sizing: border-box;}
+img{display:block;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+li{list-style:none;cursor:pointer;}
+.container-fluid{margin:0;padding: 0;}
+.top-box{width:100%;height:73.6px;background: #5EACC2;margin: auto;position:fixed;z-index: 2;}
+.nav-box{max-width:843px;height:100%;margin:auto;}
+/* ----导航栏样式--- */
+.nav-left{float:left;}
+.nav-right{float:left;}
+.logo-box{float:left;padding:10px 0;}
+.logo-box>img{max-height:50px;}
+.nav-box>div>ul>li{line-height:49.6px;padding:12px;float: left;min-width:110px;color:#fff;}
+/* -----手机端导航栏样式---- */
+.phone-nav{height:73.6px;width:100%;background:#5EACC2;margin: auto;position: fixed;z-index:2;}
+.phone-logo{padding:10px 0;position:relative;}
+.phone-logo>img{max-height:50px;margin:auto;}
+.more{width:45px;height:45px;position:absolute;top:13px;right:8px;padding:14px 15px;background:url(../img/gd.png) no-repeat center;background-color:#FFF5E4;cursor:pointer;}
+/* ---视屏样式--- */
+.video-box{padding-top:73.6px;position: relative;margin: 0;}
+.video-box>img{position: absolute;top:calc(50% - 105.5px);left:calc(50% - 142px);}
+/* 手机 */
+.video-box>video{width:100%;}
+.video-img{max-width:100%;margin:auto;padding-top:73.6px;}
+.video-img>img{max-width:100%;}
+
+/* 大屏关于我们 */
+.main-about{width:100%;height:auto;background:url(../img/mian-img.png) no-repeat center center/100% 100%;margin: auto;position: relative;top:-12px;z-index:-1;}
+.main-one{max-width:620px;height: auto;margin:auto;margin-top:150px;}
+.main-one>.title,.title-two{font-size:40px;color:#fff;padding-bottom:15px;max-width:340px;border-bottom:1px solid #fff;margin: auto;text-align:center;width:100%;}
+.title-two{font-size:22px !important;padding:5px 0 !important;}
+.font{padding:40px;font-size:14px;line-height:30px;text-indent:2em;letter-spacing:1.5px;color:#fff;}
+
+/* ---大屏  剪发洗澡--- */
+.main-twobox{width:100%;height:auto;background:url(../img/main-img-2.png) no-repeat center center/100% 100%;margin: auto;position: relative;top:-70px;overflow:hidden;padding-bottom:50px;}
+.main-two{margin-top:150px;}
+.two-title{font-size:40px;color:#5EACC2;border-bottom:1px solid #5EACC2;max-width:186px;margin:auto;padding-bottom:0 20px 5px;text-align:center;}
+.two-tt{max-width:186px;color:#5EACC2;border-bottom:1px solid #5EACC2;margin: auto;padding:5px 0;font-size:20px;text-align:center;}
+
+/* ---轮播图--- */
+.carousel{margin-top:50px;overflow:hidden;}
+.item>img{margin: auto;height:100%;border-radius:50% 30%;}
+.carousel-control{background:transparent !important;}
+.carousel-control>span{background:#5EACC2;}
+.carousel-caption{position:static;font-size:24px;color:#5EACC2;}
+.text-font{text-align:center;max-width: 523px;height: auto;margin:auto;font-size:14px;color:#5EACC2;}
+.jt{max-width:100%;height:auto;}
+.jt>img{margin: auto;margin-top:20px;}
+
+/* 价格查看表 */
+
+.btn-box{text-align:center;margin-top:50px;}
+.btn{background:transparent !important;border-radius:0;color:#5EACC2 !important;font-size:30px;border-color:#5EACC2 !important;}
+.btn:hover{color:#5EACC2;border-color:#5EACC2;}
+.modal{background-color: #68b1c4;}
+.modal-body{overflow-y:scroll;overflow-x:hidden;max-height:600px;}
+.modal-body>img{width:100%;}
+
+
+
+/* ----寄养相关 */
+.main-threen{background:#FFF5E4;position:relative;top:-75px;}
+.main-threen>.threen-bac{background:url(../img/main-3.png) no-repeat left top/150% 180%;width:100%;height:auto;overflow:hidden;padding-bottom:50px;}
+.threen-title{max-width:318px;margin: auto;text-align:center;font-size:40px;color:#5EACC2;margin-top:150px;padding-bottom:10px;}
+.threen-t{max-width:318px;margin:auto;text-align:center;font-size:22px;color:#5EACC2;border-bottom:1px solid #5EACC2;padding:5px 0;border-top:1px solid #5EACC2;}
+/* ---寄养相关内容 */
+.threen-cont{max-width: 1080px;margin:80px auto;}
+.threen-left{float:left;width:47%;}
+.threen-left>img{width:100%;}
+.threen-right{width:50%;height:510px;float:left;color:#5EACC2;}
+.threen-text{font-size:16px;font-weight:bold;line-height:30px;letter-spacing:2px;}
+.threen-text-two{font-size:14px;padding:20px;background:#7BB8C6;color:#fff;border-radius:10px;line-height:27px;letter-spacing:2px;margin-top:15px;}
+
+/* ----动态资讯样式---- */
+.dynamic{width:100%;height:auto;background:url(../img/dynamic-bac.png) no-repeat;position:relative;top:-75px;overflow: hidden;padding:0 10px;}
+.dynamic>.threen-title{color:#fff;}
+.dynamic>.threen-t{font-size:20px;color:#fff;border-color:#fff;}
+.more-baneer{max-width:950px;height:360px;margin: auto;padding-top:100px;}
+.more-left{position:relative;float:left;}
+.more-left>img{width:100%;}
+.more-text{width:180px;height:40px;position: absolute;top:25px;left:-90px;background:#5EACC2;text-align:center;line-height:40px;color:#fff;}
+.more-right{padding:58px 50px;background:#F3EFE1;float:right;}
+.right-title{max-width:400px;font-size:16px;color:#65bfd3;padding-bottom:10px;border-bottom:1px solid #DDDDDD;}
+.text-min{padding:10px 0;color:#ABCCD3;font-size:12px;}
+.text-sj{color:#65BFD3;font-size:12px;}
+.seemore{text-align:center;width:100%;font-size:22px;color:#fff;padding:50px 0;}
+.more-two{padding:0;}
+/* ------店铺信息样式-----*/
+.Store-information{width:100%;background:#fff5e4;height:auto;margin-top:-100px;overflow: hidden;padding:0 10px;}
+.Store-information>.threen-title,.Store-information>.threen-t{max-width:164px;}
+.store-content{max-width:1200px;height:auto;margin: auto;padding-top:60px;}
+.store-left,.store-right{width:45%;float: left;}
+.store-right{float:right;}
+.store-left>img{border-radius:15px;margin: auto;}
+.store-right>div{color:#5EACC2;padding:20px 0;}
+/* 地图 */
+.map{width:100%;}
+.map>img{width:100%;}
+/* ------------------在线预约----- */
+.make-box{width:100%;height:auto;background:url(../img/make-bc.png) no-repeat ;overflow: hidden;}
+.make-box>.threen-title,.make-box>.threen-t{color:#fff;border-color:#fff;max-width:168px;}
+.make-box>.threen-t{margin-bottom:50px;}
+.make-content{max-width:934px;height:auto;padding-bottom:40px;border-bottom:1px dashed #fff;margin: auto;margin-bottom:38px;}
+.make-one{font-size:16px;color:#fff;height:auto;}
+.mak{font-size:16px;color:#fff;height:auto;}
+.mak-img>img{width:80px;}
+/* ----表单填写样式-- */
+.fill-in{max-width:934px;height:auto;margin: auto;background:#5EACC2;}
+form>div{padding-bottom:10px;}
+font{font-size:16px;color:#fff;}
+label{color:#fff;}
+.come>input{background:#5EACC2;border: 0;color:#fff;outline:none;border-bottom:1px solid #fff;}
+.text-com>input{background:transparent;width:100%;height:80px;border: 0;outline: none; border-bottom:1px solid #fff;color:#fff;}
+.sendout{padding-bottom:100px;padding-top:20px;}
+.sendout>a{width:100%;height:45px;background:#fff;color:#5EACC2;display: block;text-align:center;line-height:45px;}
+
+/* ----侧边导航栏样式---- */
+.Side{width:35%;height:100vh;background:#FFF5E4;position: fixed;top:0;right:-35%;z-index:3;}
+.Side>a{display:block;font-size:18px;color:#5EACC2;line-height:60px;margin-left:10px;}
+.gunab{font-size:30px;position: absolute;top:5px;right:10px;color:#5EACC2;cursor:pointer;}
+/* -----返回顶部--- */
+.f-top{position:fixed;bottom:10%;right:2%;width:48px;height:48px;border-radius:50%;background:#fff;cursor:pointer;}

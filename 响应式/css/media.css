@@ -1,0 +1,28 @@
+@media screen and (max-width:1224px){
+	.more-text{display:none;}
+	.more-right{float:left;}
+}
+
+
+@media screen and (max-width:998px){
+	.title{font-size:26px !important;}
+	.title-two{font-size:18px !important;}
+	.font{width:100%;padding:40px 15px;}
+	.two-title{font-size:26px !important;}
+	.two-tt{font-size:18px !important;}
+	.threen-title{font-size:26px !important;margin-top:50px;}
+	.threen-t{font-size:18px !important;}
+	.threen-bac{background:#EEE5D4 !important;padding-bottom:50px !important;}
+	.threen-cont{height:980px;}
+	.threen-cont>div{width:100%;padding:0 10px;}
+	.threen-text-two{letter-spacing:0;}
+	/* 动态资讯 */
+	.dynamic{background:#5EACC2;}
+	.more-baneer{height:auto;}
+	.more-left,.more-right{width:100%;}
+	.more-right{padding:40px 10px;}
+	.store-left,.store-right{width:100%;}
+	/* ----微信---- */
+	.mak-img{margin-top:10px;}
+	.mak-img>img{width:120px;}
+}
