@@ -1,0 +1,495 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+.header{
+	height:64px;
+	padding:0 4%;
+	background:#1D1D1D;
+	position:relative;
+}
+.header-left{
+	float:left;
+	width:78px;
+	height:64px;
+	line-height:64px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	cursor:pointer;
+}
+.header-left>span{
+	display:inline-block;
+	width:6px;
+	height:8px;
+	background-image:url(../img/xuebi.png);
+	background-position:-156px -136px;
+	margin-right:16px;
+}
+.middle{
+	position:absolute;
+	left:49%;
+	margin-left:-20px;
+	top:50%;
+	margin-top:-12px;
+	width:40px;
+}
+.middle>a>img{
+	width:100%;
+}
+.right{
+	float:right;
+}
+.right>div{
+	display:inline-block;
+}
+.right-left{
+	width:72px;
+	height:64px;
+	margin-right:24px;
+	line-height:64px;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	cursor:pointer;
+}
+.right-left>span{
+	display: inline-block;
+	width:16px;
+	height:14px;
+	background-image: url(../img/xuebi.png);
+	background-position:-226px -294px;
+}
+.right-rigth{
+	color:#fff;
+	height:64px;
+	line-height:64px;
+	text-align:center;
+	cursor:pointer;
+	font-size:12px;
+}
+.right-rigth>span{
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background-position:-328px -69px;
+	background-image:url(../img/xuebi.png);
+}
+
+/* ----------头部结束--------- */
+
+.mian{
+	width:100%;
+	height:1179px;
+}
+.main-left{
+	float:left;
+	width:50%;
+	background:#fff;
+	padding:0 7% 56px 10%;
+}
+.main-right{
+	float:left;
+	width:30%;
+	padding:74px 16px 56px;
+	background:#f7f7f7;
+}
+.main-title{
+	margin: 65px 0;
+	position: relative
+}
+.main-title>h2{
+	display:inline-block;
+	vertical-align:middle;
+	font-size:40px;
+	font-weight:600;
+	color:#1d1d1d;
+}
+.main-title>h2 img{
+	width:52px;
+	margin-right:16px;
+}
+.sapge{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -22px;
+	z-index: 2;
+	border-radius:5px;
+	border:1px solid #1D1D1D;
+	line-height:44px;
+	width:208px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.peiso{
+	font-size:24px;
+	font-weight:600;
+	color:#1d1d1d;
+	height:50px;
+	border-bottom:1px solid #D0D0D0;
+}
+.fonah{
+	height:332px;
+	margin-top:46px;
+}
+.fonah div{
+	display:inline-block;
+	margin-top:20px;
+}
+.fonah>.page-one{
+	width:46%;
+	height:68px;
+	background:#fff;
+	margin-right:27px;
+	position:relative;
+}
+.fonah>.page-one>.posi{
+	background:#fff;
+	z-index:2;
+	position:absolute;
+	top:-8px;left:2px;
+}
+.fonah input{
+	width:93%;
+	height:32px;
+	font-size:14px;
+	border:1px solid #d0d0d0;
+	border-radius:4px;
+	padding:5px 30px 5px 16px;
+	color: #151515;
+	outline:none;
+}
+.fonah p{
+	height:16px;
+	font-size:11px;
+	color:transparent;
+	margin-left:18px;
+}
+.fonah .posi{
+	color:#5F5F5F;
+}
+.fonah>.page-two{
+	width:46%;
+	height:68px;
+	background:#fff;
+	position:relative;
+}
+.fonah>.page-two>.posi{
+	background:#fff;
+	z-index:2;
+	position:absolute;
+	top:-8px;left:2px;
+}
+.poscit{
+	width:100%;
+	height:44px;
+	margin-top:10px;
+}
+.poscit>select{
+	width:32%;height:44px;
+	margin-right:8px;
+	border-radius:5px;
+	outline:none;
+	color:#5F5F5F;
+}
+.jitio{
+	width:100%;
+	height:68px;
+	margin-top:20px;
+	position:relative;
+}
+.jitio>.posi{
+	background:#fff;
+	z-index:2;
+	position:absolute;
+	top:-8px;left:2px;
+}
+.potl{
+	width:50%;
+	height:68px;
+	position:relative;
+}
+.potl>.posi{
+	background:#fff;
+	z-index:2;
+	position:absolute;
+	top:-8px;left:0px;
+}
+
+/* -----配送方式以下样式---- */
+.fangs{
+	font-size:24px;
+	font-weight:600;
+	color:#1d1d1d;
+	margin-top:20px;
+	height:50px;
+	border-bottom:1px solid #D0D0D0;
+}
+.sort{
+	font-size:18px;
+	font-weight:600;
+	color: #1d1d1d;
+	height:30px;
+	margin-top:50px;
+	line-height:24px;
+	position:relative;
+}
+.sort>.sunf{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	background-image:url(../img/xuebi.png);
+	background-position:-66px -258px;
+	margin-top:0;
+	position: absolute;
+	top:0;
+}
+
+.sort>.kpl{
+	margin-left:38px;
+}
+.main-left>p{
+	font-size: 14px;
+	color: #5f5f5f;
+	line-height: 20px;
+	margin-top:10px;
+}
+
+/* ------支付方式--- */
+.moeny{
+	margin:40px 0;
+}
+.moeny>h4{
+	font-size:24px;
+	font-weight:600;
+	padding-bottom: 16px;
+	margin-bottom: 32px;
+	border-bottom: 1px solid #d0d0d0;
+}
+.pay div{
+	display: inline-block;
+	vertical-align: middle;
+	width: 23%;
+	height: 60px;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #d0d0d0;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 58px;
+	position: relative;
+	margin-bottom: 32px;
+	margin-right: 16px;
+}
+.albb>span{
+	display:inline-block;
+	background-position: -84px -209px;
+	width: 78px;
+	height: 28px;
+	background-image: url(../img/xuebi.png);
+	position:absolute;
+	left:27%;
+	top:30%;
+}
+.vx>span{
+	display:inline-block;
+	background-position:-179px 0;
+	width:108px;
+	height:28px;
+	background-image: url(../img/xuebi.png);
+	position:absolute;
+	left:20%;
+	top:30%;
+}
+.fap{
+	position:relative;
+	font-size: 14px;
+	color: #1d1d1d;
+	line-height: 20px;
+	margin-left:34px;
+	width:50%;
+}
+.fap>span{
+	display:inline-block;
+	background-position:-138px -294px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/xuebi.png);
+	position: absolute;
+	left:-8%;top:2px;
+	cursor:pointer;
+}
+.tijiao{
+	margin:40px 0;
+	border-top:1px solid #D0D0D0;
+}
+.qian{
+	margin-top:35px;
+	position:relative;
+}
+.qian>.lpony{
+	position:absolute;
+	display:inline-block;
+	background-position:-138px -294px;
+	width:16px;
+	height:16px;
+	background-image:url(../img/xuebi.png);
+	left:0.5%;top:3px;
+	cursor:pointer;
+}
+.qian>.point{
+	display:inline-block;
+	margin-left:34px;
+	font-size:12px;
+	color:#1D1D1D;
+	cursor:pointer;
+}
+.qian>.point>span{
+	text-decoration:underline;
+}
+.dint{
+	width:208px;
+	height:44px;
+	line-height:44px;
+	text-align:center;
+	margin-top:15px;
+	color:#fff;
+	border-radius:5px;
+	background:#F09999;
+	cursor:pointer;
+}
+
+/* ------订单汇总---- */
+.Summary{
+	border-radius: 4px;
+	background: #fff;
+	padding: 40px;
+	position: relative;
+}
+.Summary>h4{
+	font-size: 16px;
+	font-weight: 600;
+	color: #1d1d1d;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+.Summary>p{
+	font-size: 14px;
+	color: #1d1d1d;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+.Summary>p>span{
+	float:right;
+}
+.Summary>input{
+	font-size: 14px;
+	background: #fff;
+	border: 1px solid #d0d0d0;
+	border-radius: 4px;
+	color: #151515;
+	width: 80%;
+	height:26px;
+	padding:7px 50px 7px 16px;
+	outline:none;
+	margin-top:10px;
+}
+.ypu{
+	font-size:12px;
+	color:#151515;
+	background:#fff;
+	z-index:2;
+	position:absolute;
+	top:69%;left:13%;
+}
+.Summary>span{
+	font-size:12px;
+	color:#1D1D1D;
+	position:absolute;
+	right:13%;top:76%;
+	cursor:pointer;
+}
+.sum{
+	background:#fff;
+	padding-bottom:40px;
+}
+.sum-border{
+	width:80%;
+	margin:auto;
+	border-top:1px solid #D0D0D0;
+}
+.sumtext{
+	font-size: 16px;
+	font-weight: 600;
+	color: #1d1d1d;
+	line-height: 24px;
+	margin-top:5px;
+}
+.sumtext>span{
+	float:right;
+}
+.poiuyn{
+	padding:40px 8px 32px 39px;
+	background: #fff;
+	border-radius: 4px;
+	
+}
+.poiuyn>h4>span{
+	font-size:12px;
+	color:#1D1D1D;
+	margin-left:15px;
+}
+.goos{
+	margin-top:24px;
+	padding:0 20px;
+}
+.goos>div{
+	display:inline-block;
+}
+.goos-left{
+	width:138px;
+}
+.goos-left>img{
+	width:100%;
+}
+.goos-right{
+	float:right;
+}
+.goos-right>span{
+	font-size:14px;
+}
+.goos-right>p{
+	font-size:12px;
+	line-height:24px;
+	color:#5F5F5F;
+}
+.tips{
+	background: #f7f7f7;
+	padding-top: 24px;
+	padding-right: 29px;
+	position:relative;
+	height:360px;
+}
+.tips>ul{
+	position:absolute;
+	left:18%;
+}
+.tips>ul>li{
+	list-style:disc;
+	font-size:12px;
+	color:#5F5F5F;
+	line-height:30px;
+}
+.footerm{
+	width:100%;
+	height:64px;
+	background:#F0F0F0;
+	position:relative;
+	margin-top:70px;
+}
+.footer{font-size:12px;color:#7c7c7c;margin:auto;height:20px;margin-top:30px;position:absolute;left:20%;}
+.footer>span{padding:0 12px;}
+.footer>a{color:#7c7c7c;}
+.footer>a>span{display:inline-block;width:14px;height:13px;background-image:url(../img/xuebi.png);background-position:-328px -109px;}
+.footer>a>.last{background-position:-328px -128px;}
